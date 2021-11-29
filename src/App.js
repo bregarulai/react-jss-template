@@ -1,20 +1,8 @@
-import "./App.css";
-
 import { useStyles } from "./styles/global";
 
 function App() {
   const classes = useStyles();
-  return (
-    <div className={classes.app}>
-      <ul>
-        <li>teach</li>
-        <li>learn</li>
-        <li>practice</li>
-        <li>react</li>
-        <a href="/#">react</a>
-      </ul>
-    </div>
-  );
+  return <div className={classes.app}>Hello React JSS</div>;
 }
 
 export default App;
